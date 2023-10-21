@@ -8,28 +8,8 @@ def EncryptionBeaconData():
     #     with open('Keys_Xor_Encode_x86.bin', 'wb+') as save:
     #         save.write(bytes(file.read()[0x400:0x43E]))
 
-def beaconXor():
-    with open('beacon.bin', 'rb+') as beacon:
-        data = beacon.read()
-        r = bytearray()
-        for i in data:
-            r.append(i ^ 0x7D)
-        with open('beaconXor.bin', 'wb+') as save:
-            save.write(bytes(r))
 
-def encodeFile():
-    return "ABCDEFGJHGUO".encode()
 
-def FileSave():
-    r = bytearray()
-    with open('Keys_Xor_Encode_x64.bin','rb+') as file:
-        for i in file.read():
-            r.append(i)
-    with open('beaconXor.bin', 'rb+') as save:
-        for i in save.read():
-            r.append(i)
-    with open('save.bin','wb+') as save:
-        save.write(bytes(r))
         
 if __name__ == '__main__':
     EncryptionBeaconData()
