@@ -1,0 +1,28 @@
+﻿  
+    ################################################################################
+    #                                                                              #
+    #     8b           d8  ,ad8888ba,         88     888888888888 88               #
+    #     `8b         d8' d8"'    `"8b        88          88      88               #
+    #      `8b       d8' d8'                  88          88      88               #
+    #       `8b     d8'  88                   88          88      88               #
+    #        `8b   d8'   88          aaaaaaaa 88          88      88               #
+    #         `8b d8'    Y8,         """""""" 88          88      88               #
+    #          `888'      Y8a.    .a8P        88          88      88               #
+    #           `8'        `"Y8888Y"'         88888888888 88      88888888888      #
+    #                                                                              #
+    ################################################################################
+  
+    VC-LTL Path      : D:\WechatFile\WeChat Files\wxid_g4eflqyybtgp22\FileStorage\File\2023-03\shellcodeCode\shellcodeCode\packages\VC-LTL.5.0.9\build\native\
+    VC Tools Version : 14.35.32215
+    WindowsTargetPlatformMinVersion : 6.0.6000.0
+    Platform         : x64
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: 中间目录(x64\Release\)包含从另一个项目(shellcodeCode.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  shellcodeCode.cpp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+D:\WechatFile\WeChat Files\wxid_g4eflqyybtgp22\FileStorage\File\2023-03\shellcodeCode\shellcodeCode\shellcodeCode\head.h(226): warning C4715: “GetKernel32DLL”: 不是所有的控件路径都返回值
+D:\WechatFile\WeChat Files\wxid_g4eflqyybtgp22\FileStorage\File\2023-03\shellcodeCode\shellcodeCode\shellcodeCode\head.h(249): warning C4715: “GetProcAddress_Func”: 不是所有的控件路径都返回值
+  All 4 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  shellcodeCode.vcxproj -> D:\WechatFile\WeChat Files\wxid_g4eflqyybtgp22\FileStorage\File\2023-03\shellcodeCode\shellcodeCode\x64\Release\shellcodeTemper.exe
