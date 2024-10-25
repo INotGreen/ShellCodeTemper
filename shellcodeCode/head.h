@@ -247,3 +247,22 @@ FARPROC GetProcAddress_Func(ULONG_PTR dwKernelBase) {
 #endif
 	}
 }
+
+typedef BOOL(WINAPI* FN_HttpQueryInfoA)(
+	HINTERNET hRequest,
+	DWORD dwInfoLevel,
+	LPVOID lpBuffer,
+	LPDWORD lpdwBufferLength,
+	LPDWORD lpdwIndex
+	);
+
+typedef BOOL(WINAPI* FN_InternetCloseHandle)(
+	HINTERNET hInternet
+	);
+
+typedef BOOL(WINAPI* FN_VirtualProtect)(
+	LPVOID lpAddress,
+	SIZE_T dwSize,
+	DWORD flNewProtect,
+	PDWORD lpflOldProtect
+	);
